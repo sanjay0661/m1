@@ -27,6 +27,6 @@ jobs:
     - name: Build and push Docker image
       uses: docker/build-push-action@v4
       with:
-        context: ./dockerfolder/nodejs-new
+        context: ./nodejs-new/dockerfolder
         push: true
         tags: sanjayraj/em:latest
